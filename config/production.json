@@ -1,0 +1,18 @@
+{
+
+    "mailgun": {
+        "apiKey": "YOUR_MAILGUN_API_KEY",
+        "domain": "sandbox95c28c18321c43fb8691c1683f6f56d8.mailgun.org",
+        "sender": "admin@jota.ng"
+      },
+      "sendgrid": {
+        "apiKey": "YOUR_SENDGRID_API_KEY",
+        "sender": "admin@jota.ng"
+      },
+      "jwtSecret":"YOUR_JWT_SECRET",
+      "twilio":{
+        "accountSid":"YOUR_TWILIO_ACCOUNT_SID",
+        "authToken":"YOUR_TWILIO_AUTH_TOKEN",
+        "phoneNo":"+1234567890"
+      }
+}

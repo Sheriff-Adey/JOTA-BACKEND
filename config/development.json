@@ -1,0 +1,19 @@
+{
+    "appUrl":"",
+    "frontendUrl":"",
+    "mailgun": {
+        "apiKey": "YOUR_MAILGUN_API_KEY",
+        "domain": "sandbox9c900f6ec3274c57a1bbee3212090512.mailgun.org",
+        "sender": "jotaadmin@sandbox9c900f6ec3274c57a1bbee3212090512.mailgun.org"
+      },
+      "sendgrid": {
+        "apiKey": "YOUR_SENDGRID_API_KEY",
+        "sender": "admin@jota.ng"
+      },
+      "jwtSecret":"YOUR_JWT_SECRET",
+      "twilio":{
+        "accountSid":"YOUR_TWILIO_ACCOUNT_SID",
+        "authToken":"YOUR_TWILIO_AUTH_TOKEN",
+        "phoneNo":"+1234567890"
+      }
+}

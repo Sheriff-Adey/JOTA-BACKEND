@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Nest Framework",
+        "args": [
+          "${workspaceFolder}/src/main.ts"
+        ],
+        "runtimeArgs": [
+          "--nolazy",
+          "-r",
+          "ts-node/register",
+          "-r",
+          "tsconfig-paths/register"
+        ],
+        "sourceMaps": true,
+        "envFile": "${workspaceFolder}/.env",
+        "cwd": "${workspaceRoot}",
+        "console": "integratedTerminal",
+        
+      },
+    ]
+  }

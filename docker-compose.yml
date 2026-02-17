@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  memcached:
+    image: memcached:1.6
+    container_name: memcached
+    ports:
+      - "11211:11211"
+    networks:
+      - jota-network
+  jota-app:
+      build: .
+      container_name: jota-app
+      env_file:
+        - .env 
+      ports:
+          - "5000:3000"  
+      depends_on:
+        - memcached
+      networks:
+        - jota-network
+      volumes:
+        - ./uploads:/app/uploads
+
+networks:
+  jota-network:
+    driver: bridge
