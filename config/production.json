@@ -1,5 +1,13 @@
 {
-
+    "appUrl": "https://api.jota.ng",
+    "frontendUrl": "https://jota.ng",
+    "database": {
+        "host": "jota-db-do-user-16324573-0.d.db.ondigitalocean.com",
+        "port": 25060,
+        "username": "doadmin",
+        "password": "AVNS_qDAcVGtSuqHHYDRYjML",
+        "database": "defaultdb"
+    },
     "mailgun": {
         "apiKey": "YOUR_MAILGUN_API_KEY",
         "domain": "sandbox95c28c18321c43fb8691c1683f6f56d8.mailgun.org",
