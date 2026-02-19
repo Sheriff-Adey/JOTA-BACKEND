@@ -68,6 +68,7 @@
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "pdfmake": "^0.3.4",
+    "reflect-metadata": "^0.1.13",
     "sequelize": "^6.32.1",
     "sequelize-typescript": "^2.1.5",
     "socket.io": "^4.7.2",
@@ -82,3 +83,4 @@
     "ts-node": "^10.9.1"
   }
 }
+
